@@ -1,6 +1,5 @@
 package uk.ac.rgu.topic4;
-
-public class Ostrich extends Birds{
+/*public class Ostrich extends Birds{
     public Ostrich(String name){
         super(name);
     }
@@ -12,3 +11,4 @@ public class Ostrich extends Birds{
 
     
 }
+*/
