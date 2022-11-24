@@ -8,7 +8,6 @@ public class Eagle extends Bird implements CanFly, IsPredator {
 
     @Override
     public String makeSound() {
-        // TODO Auto-generated method stub
         return ": tweet";
     }
     @Override

@@ -3,7 +3,7 @@ package uk.ac.rgu.topic6;
 import uk.ac.rgu.topic6.VerboseLogger;
 
 
-    public class App {
+/*   public class App {
 
         public static void main(String[] args){
 
@@ -20,4 +20,4 @@ import uk.ac.rgu.topic6.VerboseLogger;
     }
 
 
-}
+}*/

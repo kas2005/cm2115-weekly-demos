@@ -22,28 +22,28 @@ import java.io.IOException;
  * 3) Create a new scene and use the setRoot() method below to switch to it from MyScene (using the Controller class). Note: 
  *      we will use a slightly different method of switching scenes in the Smart Home project, and the coursework.
  */
-public class App extends Application {
+//public class App extends Application {
 
-    private static Scene scene;
+   // private static Scene scene;
 
-    @Override
-    public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("MyScene"), 640, 480);
-        stage.setScene(scene);
-        stage.show();
-    }
+ //   @Override
+  //  public void start(Stage stage) throws IOException {
+    //    scene = new Scene(loadFXML("MyScene"), 640, 480);
+    //    stage.setScene(scene);
+  //      stage.show();
+  //  }
 
-    static void setRoot(String fxml) throws IOException {
-        scene.setRoot(loadFXML(fxml));
-    }
+  //  static void setRoot(String fxml) throws IOException {
+  //      scene.setRoot(loadFXML(fxml));
+  //  }
 
-    private static Parent loadFXML(String fxml) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(fxml + ".fxml"));
-        return fxmlLoader.load();
-    }
+  //  private static Parent loadFXML(String fxml) throws IOException {
+   //     FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(fxml + ".fxml"));
+   //     return fxmlLoader.load();
+   // }
 
-    public static void main(String[] args) {
-        launch();
-    }
+  //  public static void main(String[] args) {
+  //      launch();
+  //  }
 
-}
+//}

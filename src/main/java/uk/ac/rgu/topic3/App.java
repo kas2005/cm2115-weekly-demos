@@ -38,8 +38,8 @@ public class App {
          * Polymorphism also allows us to assign variables declared as a super class (so in this case Animal) to
          * objects of a sub-type (so in this case, Cat or Dog). We can re-assign the variable to any of the sub-types.
          */
-        Animal animal = new Cat("Garfield");
-        animal = new Dog("Odie");
+    //    Animal animal = new Cat("Garfield");
+     //   animal = new Dog("Odie");
 
         /**
          * The main use of polymorphism in this way is to be able to store multiple related objects
